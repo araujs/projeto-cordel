@@ -63,7 +63,7 @@ section.normal{
 }
 section.imagem > p{
     display: inline-block;
-    width: 350px;
+    width: 330px;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.301);
     text-shadow: 1px 1px 0px black;
