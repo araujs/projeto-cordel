@@ -15,8 +15,9 @@
 } 
 
 html, body{
+    min-height: 100vh;
     font-family: var(--fonte1);
-    min-width: 400px;
+    
 }
 
 header{
@@ -62,7 +63,7 @@ section.normal{
 }
 section.imagem > p{
     display: inline-block;
-    width: 400px;
+    width: 350px;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.301);
     text-shadow: 1px 1px 0px black;
@@ -70,7 +71,6 @@ section.imagem > p{
 section.imagem{
     background-color: grey;
     color: white;
-    width: 400px;
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
@@ -85,6 +85,7 @@ section.imagem#flor{
 
 section.imagem#livros{
     background-image: url(../imagens/background002.jpg);
+
 }
 footer{
     background-color: black;
